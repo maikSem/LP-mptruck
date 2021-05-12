@@ -1,0 +1,41 @@
+.advantages {
+}
+
+.advantages__wrap-img {
+}
+
+.advantages__wrap-text {
+}
+
+.advantages__title {
+  @include basic-font-medium;
+  @include text-size(16px, 18px, $basic-black);
+  text-transform: uppercase;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages__item {
+}
+
+.advantages__icon {
+}
+
+.advantages__icon-yellow {
+}
+
+.advantages__text {
+  @include basic-font-normal;
+  @include text-size(16px, 20px, $grey);
+}
+
+.advantages__text-red {
+  color: $red;
+}
+
+.advantages__icon-black {
+}

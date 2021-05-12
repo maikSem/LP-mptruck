@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html" lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.min.css">
   <title>Магазин грузовых запчастей МП ТРАК</title>
 </head>
 
@@ -16,14 +16,19 @@
         <div class="header__logo">
           <img src="img/logo.png" width="277" height="76" alt="Магазин запчастей на грузовые тягачи и прицепы МП ТРАК">
         </div>
-        <p class="header__adress">г.Екатеринбург ул. Черняховского 86/2 здание “МегаДетки” ориентир - вход №5</p>
+        <p class="header__adress">
+          г.Екатеринбург<br>
+          ул. Черняховского 86/2
+          здание “МегаДетки”
+          ориентир - вход №5
+        </p>
         <div class="header__conacts">
           <a class="header__email" href="#">shop@mptruck.ru</a>
           <p class="header__operating-mode">график работы: пн-вс 9:00-21:00</p>
         </div>
-        <div class="header__phone">
-          <a class="header__phone-top" href="tel:+79221197366">+7 (922) 119-73-66</a>
-          <a class="header__phone-bottom" href="tel:+79220345118">+7 (922) 034-51-18</a>
+        <div class="header__phone phone">
+          <a class="phone__item header__phone-top" href="tel:+79221197366">+7 (922) 119-73-66</a>
+          <a class="phone__item header__phone-bottom" href="tel:+79220345118">+7 (922) 034-51-18</a>
         </div>
       </div>
       <div class="header__main">
@@ -131,11 +136,11 @@
             </li>
             <li class="advantages__item">
               <span class="advantages__icon advantages__icon-yellow">logo</span>
-              <p class="advantages__text">Экспресс-доставка!</p>
+              <p class="advantages__text advantages__text-red">Экспресс-доставка!</p>
             </li>
             <li class="advantages__item">
               <span class="advantages__icon advantages__icon-black">logo</span>
-              <p class="advantages__text">Работаем с НДС и без НДС!</p>
+              <p class="advantages__text advantages__text-red">Работаем с НДС и без НДС!</p>
             </li>
           </ul>
         </div>
@@ -220,9 +225,9 @@
         </div>
       </section>
       <section class="map">
-        <h2 class="1">Как нас найти?</h2>
+        <h2 class="map__title visually-hidden">Как нас найти?</h2>
         <div class="map__wrap">
-          <img src="#" alt="г.Екатеринбург ул. Черняховского 86/2 здание “МегаДетки” ориентир - вход №5">
+          <img class="map" src="#" alt="г.Екатеринбург ул. Черняховского 86/2 здание “МегаДетки” ориентир - вход №5">
         </div>
       </section>
     </div>
@@ -230,12 +235,13 @@
   <footer class="footer">
     <div class="footer__wrap">
       <div class="footer__wrap-title">
-        <h3 class="footer__title"><span class="footer__company">“МП ТРАК” </span>- надежный поставщик автозапчастей для грузовых тягачай и прицепов</h3>
+        <h3 class="footer__title"><span class="footer__company">“МП ТРАК” </span>- надежный поставщик автозапчастей для
+          грузовых тягачай и прицепов</h3>
       </div>
-      <div class="footer__phone">
-        <span class="footer__phone-icon">logo</span>
-        <a class="footer__phone-top" href="tel:+79221197366">+7 (922) 119-73-66</a>
-        <a class="footer__phone-bottom" href="tel:+79220345118">+7 (922) 034-51-18</a>
+      <div class="footer__contact">
+        <span class="footer__contact-icon">logo</span>
+        <a class="footer__phone footer__contact-top" href="tel:+79221197366">+7 (922) 119-73-66</a>
+        <a class="footer__phone footer__contact-bottom" href="tel:+79220345118">+7 (922) 034-51-18</a>
       </div>
       <p class="footer__operating-mode">график работы: пн-вс 9:00-21:00 (без выходных и праздников)</p>
       <div class="footer__email">

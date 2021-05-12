@@ -1,0 +1,52 @@
+.footer {
+}
+
+.footer__wrap {
+}
+
+.footer__wrap-title {
+}
+
+.footer__title {
+  @include basic-font-normal;
+  @include text-size(14px, 16px, $basic-black)
+}
+
+.footer__company {
+  @include basic-font-medium;
+
+}
+
+.footer__contact {
+}
+
+.footer__contact-icon {
+}
+
+.footer__phone {
+  @include basic-font-medium;
+  @include text-size(18px, 21px, $grey);
+  text-decoration: none;
+}
+
+.footer__contact-top {
+}
+
+.footer__contact-bottom {
+}
+
+.footer__operating-mode {
+  @include basic-font-normal;
+  @include text-size(13px, 15px, $grey);
+}
+
+.footer__email {
+}
+
+.footer__email-icon {
+}
+
+.footer__email-adress {
+  @include basic-font-medium;
+  @include text-size(18px, 21px, $grey);
+}

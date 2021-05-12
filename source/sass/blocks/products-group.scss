@@ -1,0 +1,30 @@
+.products-group {
+}
+
+.products-group__title {
+  @include basic-font-bold;
+  @include text-size(18px, 21px, $basic-black);
+  text-transform: uppercase
+}
+
+.products-group__list {
+  list-style: none;
+}
+
+.products-group__item {
+}
+
+.product-item {
+}
+
+.product-item__logo {
+}
+
+.product-item__text {
+  width: 198px;
+
+  @include basic-font-medium;
+  @include text-size(14px, 16px, $basic-black);
+  text-align: center;
+  text-transform: uppercase;
+}

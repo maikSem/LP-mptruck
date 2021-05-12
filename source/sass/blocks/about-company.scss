@@ -1,0 +1,14 @@
+.about-company {
+}
+
+.about-company__text {
+  @include basic-font-medium;
+  @include text-size(16px, 28px, $grey);
+  letter-spacing: 0.02em;
+}
+
+.about-company__wrap {
+}
+
+.about-company__img {
+}
