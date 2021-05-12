@@ -1,0 +1,17 @@
+.div_img {
+  position: relative;
+  display: block;
+}
+
+.header__img-truck {
+  position: relative;
+  object-fit: contain;
+}
+
+.header__img-rvi {
+  left: -170px;
+}
+
+.header__img-man {
+  left: -360px;
+}
