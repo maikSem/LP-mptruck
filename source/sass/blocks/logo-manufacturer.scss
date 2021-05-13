@@ -9,6 +9,8 @@
 }
 
 .truck__list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -43,6 +45,8 @@
 }
 
 .trailer__list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -80,6 +84,8 @@
 }
 
 .oil__list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;

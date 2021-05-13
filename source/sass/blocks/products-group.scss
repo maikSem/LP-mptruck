@@ -1,13 +1,19 @@
 .products-group {
+  background-color: $yellow;
 }
 
 .products-group__title {
   @include basic-font-bold;
   @include text-size(18px, 21px, $basic-black);
+  text-align: center;
   text-transform: uppercase
 }
 
 .products-group__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 

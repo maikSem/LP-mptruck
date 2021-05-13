@@ -12,59 +12,61 @@
 <body>
   <header class="header">
     <div class="header__wrap">
-      <div class="header__top">
-        <div class="header__logo">
-          <img src="img/logo.png" width="277" height="76" alt="Магазин запчастей на грузовые тягачи и прицепы МП ТРАК">
-        </div>
-        <p class="header__adress">
-          г.Екатеринбург<br>
-          ул. Черняховского 86/2
-          здание “МегаДетки”
-          ориентир - вход №5
-        </p>
-        <div class="header__conacts">
-          <a class="header__email" href="#">shop@mptruck.ru</a>
-          <p class="header__operating-mode">график работы: пн-вс 9:00-21:00</p>
-        </div>
-        <div class="header__phone phone">
-          <a class="phone__item header__phone-top" href="tel:+79221197366">+7 (922) 119-73-66</a>
-          <a class="phone__item header__phone-bottom" href="tel:+79220345118">+7 (922) 034-51-18</a>
+      <div class="container">
+        <div class="header__top">
+          <div class="header__logo">
+            <img src="img/logo.png" width="277" height="76"
+              alt="Магазин запчастей на грузовые тягачи и прицепы МП ТРАК">
+          </div>
+          <p class="header__adress">
+            г.Екатеринбург<br>
+            ул. Черняховского 86/2
+            здание “МегаДетки”
+            ориентир - вход №5
+          </p>
+          <div class="header__conacts">
+            <a class="header__email" href="#">shop@mptruck.ru</a>
+            <p class="header__operating-mode">график работы: пн-вс 9:00-21:00</p>
+          </div>
+          <div class="header__phone phone">
+            <a class="phone__item header__phone-top" href="tel:+79221197366">+7 (922) 119-73-66</a>
+            <a class="phone__item header__phone-bottom" href="tel:+79220345118">+7 (922) 034-51-18</a>
+          </div>
         </div>
       </div>
-      <div class="header__main">
-        <h1 class="header__title">Автозапчасти для грузовых тягачей и прицепов</h1>
-        <div class="header__img">
-          <img class="header__img-truck header__img-volvo" src="/img/volvo_fm_left 1_auto_x2_colored.png" width="300"
-            height="221" alt="Жёлтый грузовик VOLVO FH12">
-          <img class="header__img-truck header__img-rvi" src="/img/rvi-left-removebg-preview_auto_x2_colored.png"
-            width="379" height="225" alt="Чёрный грузовик RVI MAGNUM">
-          <img class="header__img-truck header__img-man" src="/img/man_left_yellow 1_auto_x2.png" width="290"
-            height="242" alt="Жёлтый грузовик MAN">
-        </div>
-        <div class="exspress__delivery">
-          <p class="exspress__delivery-text">Экспресс-доставка</p>
-        </div>
-        <form class="feedback__form" action="#">
-          <div class="feedback__form-item">
-            <input class="feedback__form-name" type="text" name="name" placeholder="Имя Фамилия" />
-          </div>
-          <div class="feedback__form-item">
-            <input class="feedback__form-phone" type="phone" name="phone" placeholder="Телефон для связи" />
-          </div>
-          <div class="feedback__form-item">
-            <textarea class="feedback__form-textarea" name="text-letter" cols="50" rows="6"
-              placeholder="Укажите вашу потребность, WIN, email..."></textarea>
-          </div>
-          <div class="feedback__form-button">
-            <button type="submit" class="button-form">Отправить заявку</button>
-          </div>
-        </form>
+    </div>
+    <div class="header__main container">
+      <h1 class="header__title">Автозапчасти для грузовых тягачей и прицепов</h1>
+      <div class="header__img">
+        <img class="header__img-truck header__img-volvo" src="/img/volvo_fm_left 1_auto_x2_colored.png" width="300"
+          height="221" alt="Жёлтый грузовик VOLVO FH12">
+        <img class="header__img-truck header__img-rvi" src="/img/rvi-left-removebg-preview_auto_x2_colored.png"
+          width="379" height="225" alt="Чёрный грузовик RVI MAGNUM">
+        <img class="header__img-truck header__img-man" src="/img/man_left_yellow 1_auto_x2.png" width="290" height="242"
+          alt="Жёлтый грузовик MAN">
       </div>
+      <div class="exspress__delivery">
+        <p class="exspress__delivery-text">Экспресс-доставка</p>
+      </div>
+      <form class="feedback__form" action="#">
+        <div class="feedback__form-item">
+          <input class="feedback__form-name" type="text" name="name" placeholder="Имя Фамилия" />
+        </div>
+        <div class="feedback__form-item">
+          <input class="feedback__form-phone" type="phone" name="phone" placeholder="Телефон для связи" />
+        </div>
+        <div class="feedback__form-item">
+          <textarea class="feedback__form-textarea" name="text-letter" cols="50" rows="6"
+            placeholder="Укажите вашу потребность, WIN, email..."></textarea>
+        </div>
+        <div class="feedback__form-button">
+          <button type="submit" class="button-form">Отправить заявку</button>
+        </div>
+      </form>
     </div>
   </header>
   <main class="main">
-    <div class="main__wrap">
-      <section class="about-company">
+      <section class="about-company container">
         <p class="about-company__text">Компания “МП ТРАК” занимается оптово-розничной продажей запчастей для грузовых
           тягачей и прицепов. В нашем ассортименте представлен большой выбор запчастей для грузовиков MAN, VOLVO,
           SCANIA, RENAULT, IVECO, MERSEDES BENZ, DAF, прицепов SCHMITZ, KRONE, KOGEL, KASSBOHRER, осей SAF, BPW, ROR,
@@ -75,43 +77,49 @@
         </div>
       </section>
       <section class="products-group">
-        <h2 class="products-group__title">Основной ассортимент</h2>
-        <ul class="products-group__list">
-          <li class="products-group__item product-item">
-            <span class="product-item__logo">logo</span>
-            <h3 class="product-item__text">Запчасти для дизельных двигателей</h3>
-          </li>
-          <li class="products-group__item product-item">
-            <span class="product-item__logo">logo</span>
-            <h3 class="product-item__text">Запчасти подвески тягачей и прицепов</h3>
-          </li>
-          <li class="products-group__item product-item">
-            <span class="product-item__logo">logo</span>
-            <h3 class="product-item__text">Запчасти тормозной системы</h3>
-          </li>
-          <li class="products-group__item product-item">
-            <span class="product-item__logo">logo</span>
-            <h3 class="product-item__text">Запчасти трансмиссии</h3>
-          </li>
-          <li class="products-group__item product-item">
-            <span class="product-item__logo">logo</span>
-            <h3 class="product-item__text">Узлы и агрегаты</h3>
-          </li>
-          <li class="products-group__item product-item">
-            <span class="product-item__logo">logo</span>
-            <h3 class="product-item__text">Запчасти системы охлаждения</h3>
-          </li>
-          <li class="products-group__item product-item">
-            <span class="product-item__logo">logo</span>
-            <h3 class="product-item__text">Моторный трансмиссионные масла</h3>
-          </li>
-          <li class="products-group__item product-item">
-            <span class="product-item__logo">logo</span>
-            <h3 class="product-item__text">Запчасти электрической системы</h3>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="products-group__title">Основной ассортимент</h2>
+          <ul class="products-group__list">
+            <li class="products-group__item product-item">
+              <span class="product-item__logo">
+                <svg>
+                  <use xlink:href="img/sprite.svg#icon-engine"></use>
+                </svg>
+              </span>
+              <h3 class="product-item__text">Запчасти для дизельных двигателей</h3>
+            </li>
+            <li class="products-group__item product-item">
+              <span class="product-item__logo">logo</span>
+              <h3 class="product-item__text">Запчасти подвески тягачей и прицепов</h3>
+            </li>
+            <li class="products-group__item product-item">
+              <span class="product-item__logo">logo</span>
+              <h3 class="product-item__text">Запчасти тормозной системы</h3>
+            </li>
+            <li class="products-group__item product-item">
+              <span class="product-item__logo">logo</span>
+              <h3 class="product-item__text">Запчасти трансмиссии</h3>
+            </li>
+            <li class="products-group__item product-item">
+              <span class="product-item__logo">logo</span>
+              <h3 class="product-item__text">Узлы и агрегаты</h3>
+            </li>
+            <li class="products-group__item product-item">
+              <span class="product-item__logo">logo</span>
+              <h3 class="product-item__text">Запчасти системы охлаждения</h3>
+            </li>
+            <li class="products-group__item product-item">
+              <span class="product-item__logo">logo</span>
+              <h3 class="product-item__text">Моторный трансмиссионные масла</h3>
+            </li>
+            <li class="products-group__item product-item">
+              <span class="product-item__logo">logo</span>
+              <h3 class="product-item__text">Запчасти электрической системы</h3>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="advantages">
+      <section class="advantages container">
         <div class="advantages__wrap-img">
           <img src="#" alt="">
         </div>
@@ -145,27 +153,33 @@
           </ul>
         </div>
       </section>
-      <section class="logo-manufacturer">
+      <section class="logo-manufacturer container">
         <div class="truck">
           <h2 class="truck__title">Запчасти для грузовиков</h2>
           <ul class="truck__list">
             <li class="truck__item truck__item-rvi">
-              <img src="#" alt="Автозапчасти для грузовиков RENAULT">
+              <img src="img/label/icon-rvi.svg" alt="Автозапчасти для грузовиков RENAULT">
             </li>
             <li class="truck__item truck__item-volvo">
-              <img src="#" alt="Автозапчасти для грузовиков VOLVO">
+              <img src="img/label/icon-volvo.svg" alt="Автозапчасти для грузовиков VOLVO">
             </li>
             <li class="truck__item truck__item-scania">
+              <svg viewBox="0 0 55.5 60" width="56" height="72">
+                <use xlink:href="img/sprite.svg#icon-scania"></use>
+              </svg>
               <img src="#" alt="Автозапчасти для грузовиков SCANIA">
             </li>
             <li class="truck__item truck__item-man">
-              <img src="#" alt="Автозапчасти для грузовиков MAN">
+              <img src="img/label/icon-man.svg" width="70" height="100" alt="Автозапчасти для грузовиков MAN">
             </li>
             <li class="truck__item truck__item-daf">
+              <svg viewBox="0 0 55.5 60" width="56" height="72">
+                <use xlink:href="img/sprite.svg#icon-daf"></use>
+              </svg>
               <img src="#" alt="Автозапчасти для грузовиков DAF">
             </li>
             <li class="truck__item truck__item-mb">
-              <img src="#" alt="Автозапчасти для грузовиков MERSEDES BENZ">
+              <img src="img/label/icon-mb.svg" width="60" height="60" alt="Автозапчасти для грузовиков MERSEDES BENZ">
             </li>
           </ul>
         </div>
@@ -224,16 +238,15 @@
           </ul>
         </div>
       </section>
-      <section class="map">
+      <section class="map container">
         <h2 class="map__title visually-hidden">Как нас найти?</h2>
         <div class="map__wrap">
           <img class="map" src="#" alt="г.Екатеринбург ул. Черняховского 86/2 здание “МегаДетки” ориентир - вход №5">
         </div>
       </section>
-    </div>
   </main>
   <footer class="footer">
-    <div class="footer__wrap">
+    <div class="footer__wrap container">
       <div class="footer__wrap-title">
         <h3 class="footer__title"><span class="footer__company">“МП ТРАК” </span>- надежный поставщик автозапчастей для
           грузовых тягачай и прицепов</h3>
